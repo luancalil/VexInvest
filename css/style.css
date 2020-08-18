@@ -302,6 +302,7 @@ form .button {
   body {
     background: #f3f7f9;
     /*background: url("/assets/imgs-mobile/bg.png") no-repeat;*/
+    z-index: -100;
   }
 
   .header {
