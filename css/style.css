@@ -298,11 +298,9 @@ form .button {
   padding-top: 33px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 700px) {
   body {
     background: #f3f7f9;
-    /*background: url("/assets/imgs-mobile/bg.png") no-repeat;*/
-    z-index: -100;
   }
 
   .header {
