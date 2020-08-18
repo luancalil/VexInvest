@@ -213,7 +213,7 @@ form .button {
   color: #20509e;
 }
 
-.bro button.btn-2 {
+.bro .direito .btn-2 {
   margin-top: 2.4rem;
   width: 80%;
   padding: 10px 0;
@@ -381,6 +381,7 @@ form .button {
     width: 70vw;
     align-items: center;
     position: relative;
+    padding-left: 40px;
   }
 
   .bro .direito {
