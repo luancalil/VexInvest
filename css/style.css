@@ -300,7 +300,8 @@ form .button {
 
 @media (max-width: 576px) {
   body {
-    background: url("/assets/imgs-mobile/bg.png") no-repeat;
+    background: #f3f7f9;
+    /*background: url("/assets/imgs-mobile/bg.png") no-repeat;*/
   }
 
   .header {
