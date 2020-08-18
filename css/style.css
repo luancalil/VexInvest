@@ -374,16 +374,17 @@ form .button {
   .bro {
     margin-top: 0rem;
     margin-left: 1rem;
+    display: block;
   }
 
   .bro img {
-    width: 95vw;
+    width: 70vw;
+    align-items: center;
     position: relative;
   }
 
   .bro .direito {
-    position: absolute;
-    top: 2900px;
+    word-break: keep-all;
   }
 
   .bro h1,
@@ -394,7 +395,7 @@ form .button {
     text-align: start;
   }
 
-  .bro button {
+  .bro .direito .btn-2 {
     margin-top: 2rem;
     font-size: 1.1rem;
   }
