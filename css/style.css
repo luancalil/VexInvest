@@ -307,16 +307,12 @@ form .button {
     padding: 25px;
   }
 
-  #logo {
-    display: none;
-  }
-
   .introducao img {
     display: none;
   }
 
   #logo-sm {
-    display: block;
+    display: none;
   }
 
   form {
@@ -376,15 +372,18 @@ form .button {
   }
 
   .bro {
-    margin-top: 2rem;
+    margin-top: 0rem;
     margin-left: 1rem;
   }
 
   .bro img {
     width: 95vw;
+    position: relative;
+  }
+
+  .bro .direito {
     position: absolute;
-    z-index: -1;
-    opacity: 0.3;
+    top: 2900px;
   }
 
   .bro h1,
