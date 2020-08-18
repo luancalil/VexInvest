@@ -48,7 +48,7 @@ li img {
 }
 
 .introducao h1 {
-  width: 50vw;
+  width: 35vw;
   font-size: 62px;
   color: #20509e;
   font-weight: bold;
@@ -397,6 +397,7 @@ form .button {
     font-size: 1.7rem;
     line-height: normal;
     text-align: start;
+    width: 400px;
   }
 
   .bro .direito .btn-2 {
