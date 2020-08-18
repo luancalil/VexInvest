@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>VexInvest</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="grid-4">
+        <img src="assets/Logo.svg" alt="logo VexInvest" id="logo" />
+        <img
+          src="/assets/imgs-mobile/v-logo.png"
+          alt="logo VexInvest"
+          id="logo-sm"
+        />
+      </a>
+    </header>
+    <img src="/assets/bg-mapa.jpg" id="bg-mapa" />
+
+    <section class="introducao">
+      <div class="esquerdo">
+        <h1>Automatize e <span>alcance</span> os seus sonhos</h1>
+        <p>
+          Você escolhe a estratégia e o robô a executa <br />
+          enquanto você planeja o que fazer com seu tempo <br />
+          livre. Baixe o infográfico.
+        </p>
+
+        <form
+          method="POST"
+          action="https://smtl.gama.academy/leads/7f2b2100-dcac-11ea-91f1-99fb0c9231dc"
+        >
+          <div class="form-group">
+            <input
+              name="name"
+              type="text"
+              pattern="^\D{2,}\s[\D\s]{2,}$"
+              placeholder="Nome Completo"
+              class="form-control"
+              id="home"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              name="email"
+              type="email"
+              placeholder="Seu melhor e-mail"
+              class="form-control"
+              required
+            />
+          </div>
+          <input
+            name="redirectTo"
+            type="hidden"
+            value="https://vexinvest.netlify.app/thankyou.html"
+          />
+          <input name="debugMode" type="hidden" value="true" />
+          <input type="submit" class="button" value="BAIXE AGORA!" />
+        </form>
+      </div>
+      <div class="direito">
+        <img
+          src="/assets/intro.svg"
+          alt="Dupla de colegas avaliando um gráfico ilustrativo."
+          id="intro-img"
+        />
+      </div>
+    </section>
+
+    <section id="passos">
+      <div class="cada-passo">
+        <img src="/assets/criar.svg" alt=" imagem inspiradora" />
+        <p class="passo-texto criar">
+          Defina sua <br />
+          <span>estratégia</span>
+        </p>
+      </div>
+
+      <div class="cada-passo">
+        <img src="/assets/quadrinhos-fofo.svg" alt="" />
+        <p class="passo-texto personalize">
+          <span>Personalize </span> <br />
+          os parâmetros
+        </p>
+      </div>
+
+      <div class="cada-passo">
+        <img src="/assets/robozinho-fofo.svg" alt="" id="robofdp" />
+        <p class="passo-texto">
+          Deixe o robô <br />
+          <span>executar</span>
+        </p>
+      </div>
+    </section>
+
+    <section class="human">
+      <div class="esquerdo">
+        <h1>
+          Humano <br />
+          <span>X</span> Robo
+        </h1>
+        <p>
+          Quantos ativos você consegue acompanhar durante <br />
+          o pregão? Robôs investidores conseguem <br />
+          acompanhar todos os ativos do mercado <br />
+          simultaneamente. <br />
+          Descubra o que mais os bots podem <br />
+          fazer por você!
+        </p>
+      </div>
+      <div class="direito">
+        <button
+          class="btn-2"
+          onClick="document.getElementById('intro-img').scrollIntoView();"
+        >
+          Baixe o infográfico
+        </button>
+      </div>
+    </section>
+
+    <section class="bro">
+      <img src="/assets/bro.svg" alt="" />
+      <div class="direito">
+        <h1>
+          Quer saber mais sobre os <br />
+          <span>robôs traders</span><span>?</span>
+        </h1>
+        <button
+          class="btn-2"
+          onClick="document.getElementById('intro-img').scrollIntoView();"
+        >
+          Faça o download gratuito
+        </button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <ul>
+        <li>
+          <a href="dossie-reconvexo.vercel.app"
+            ><img src="/assets/reconvexosimbolo 1.svg" alt=""
+          /></a>
+        </li>
+        <li>
+          <a href=""><img src="/assets/vexinvest.svg" alt="" /></a>
+        </li>
+        <li>
+          <p>
+            A Vexinvest é uma empresa de tecnologia <br />
+            especializada em investimentos automatizadas <br />
+            na bolsa de valores.<br />
+            Conheça nossos produtos e revolucione sua carteira.
+          </p>
+        </li>
+      </ul>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

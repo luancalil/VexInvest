@@ -1,0 +1,410 @@
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  background: #f3f7f9;
+}
+
+#logo,
+li img {
+  display: block;
+  max-width: 100%;
+}
+
+#logo-sm {
+  display: none;
+}
+
+#bg-mapa {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+.subtitulo {
+  font-family: Poppins;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+/*Menu*/
+
+.header {
+  position: absolute;
+  width: 100%;
+  padding: 15px 200px;
+}
+
+/*Introdução*/
+
+.introducao {
+  display: flex;
+  width: 100%;
+}
+
+#intro-img {
+  margin-top: 150px;
+}
+
+.introducao h1 {
+  width: 50vw;
+  font-size: 62px;
+  color: #20509e;
+  font-weight: bold;
+  padding-left: 140px;
+  padding-top: 130px;
+}
+
+.introducao h1 span {
+  color: #00cfc1;
+}
+
+.introducao p {
+  font-size: 19px;
+  margin: 35px 0;
+  padding-left: 140px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  margin-left: 140px;
+}
+
+form input {
+  height: 48px;
+  border: 1px solid #00cfc1;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  color: #c4c4c4;
+}
+
+form .button {
+  margin-top: 21px;
+  box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+  background: #00cfc1;
+  font-size: 27.5052px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/*Passos*/
+
+#passos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cada-passo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cada-passo p.criar {
+  position: relative;
+  top: -25px;
+}
+
+.cada-passo p.personalize {
+  position: relative;
+  top: -13px;
+}
+
+.cada-passo img {
+  width: 80%;
+}
+
+.passo-texto {
+  font-family: Montserrat;
+  font-size: 35px;
+  color: #20509e;
+}
+
+.passo-texto span {
+  color: #00cfc1;
+}
+
+/*Human x Robo*/
+
+.human {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 10rem;
+  width: 90vw;
+  height: 403px;
+  background: #00cfc1;
+  border-radius: 16px;
+}
+
+.human h1 {
+  font-family: Roboto;
+  font-size: 64px;
+  line-height: 70px;
+  color: #ffffff;
+}
+
+.human h1 span {
+  color: #20509e;
+}
+
+.human p {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.btn-2 {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #20509e;
+  border: none;
+  border-radius: 8px;
+  height: 60px;
+  width: 350px;
+}
+
+/*Bro*/
+.bro {
+  display: flex;
+  align-items: center;
+  height: 500px;
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-bottom: 50px;
+}
+
+.bro h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42.6392px;
+  line-height: 43px;
+  color: #20509e;
+  text-align: center;
+}
+
+.bro span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 81px;
+  line-height: 81px;
+  color: #00cfc1;
+}
+
+.bro span + span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 81px;
+  line-height: 81px;
+  color: #20509e;
+}
+
+.bro button.btn-2 {
+  margin-top: 2.4rem;
+  width: 80%;
+  padding: 10px 0;
+  margin: 20px 40px;
+}
+
+/*Parceiros*/
+
+.parceiros {
+  margin-top: 50px;
+}
+
+.parceiros p {
+  font-family: Montserrat;
+  font-size: 48px;
+  line-height: 84px;
+  color: #20509e;
+  display: block;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-left: 10rem;
+}
+
+.parceiros p span {
+  color: #00cfc1;
+}
+
+.parceiros ul li {
+  position: relative;
+  display: inline-block;
+  align-items: center;
+  margin: 0 15px;
+  left: 150px;
+}
+
+/*Footer*/
+
+.footer::before {
+  content: "";
+  display: block;
+  width: 130vw;
+  height: 5px;
+  background: linear-gradient(90.01deg, #00cfc1 0.01%, #1663a0 98.34%);
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.footer {
+  height: 150px;
+  width: 130vw;
+  background: #32383c;
+  overflow: hidden;
+  padding: 0px 0;
+}
+
+.footer ul li {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 20px 15px;
+  align-items: center;
+  position: relative;
+  top: -20px;
+  left: 200px;
+  margin-top: 20px;
+}
+
+.footer ul li:first-child {
+  border-right: 1px solid #e9eef2;
+}
+
+.footer p {
+  color: #e9eef2;
+  font-family: Lato;
+  font-size: 11px;
+  line-height: 18px;
+  font-family: "Lato", sans-serif;
+  border-left: 1px solid #e9eef2;
+  height: 100px;
+  width: 400px;
+  padding-left: 30px;
+  padding-top: 33px;
+}
+
+@media (max-width: 576px) {
+  body {
+    background: url("/assets/imgs-mobile/bg.png") no-repeat;
+  }
+
+  .header {
+    padding: 25px;
+  }
+
+  #logo {
+    display: none;
+  }
+
+  .introducao img {
+    display: none;
+  }
+
+  #logo-sm {
+    display: block;
+  }
+
+  form {
+    max-width: 90vw;
+    margin-left: 1rem;
+  }
+
+  .introducao h1 {
+    width: 70vw;
+    font-size: 2.8rem;
+    padding-left: 1.4rem;
+  }
+
+  .introducao p {
+    font-size: 1.4rem;
+    padding: 1.4rem;
+    margin-right: 2rem;
+  }
+
+  form {
+    font-family: "Montserrat";
+    font-size: 1.2rem;
+    color: #6c6e70;
+  }
+
+  form .button {
+    margin: 1rem 0;
+  }
+
+  #bg-mapa {
+    display: none;
+  }
+
+  #passos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .cada-passo img {
+    width: 75vw;
+    margin-right: 2rem;
+  }
+
+  #robofdp {
+    width: 50vw;
+  }
+
+  .passo-texto {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  .human {
+    display: none;
+  }
+
+  .bro {
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+
+  .bro img {
+    width: 95vw;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3;
+  }
+
+  .bro h1,
+  .bro span,
+  .bro span + span {
+    font-size: 1.7rem;
+    line-height: normal;
+    text-align: start;
+  }
+
+  .bro button {
+    margin-top: 2rem;
+    font-size: 1.1rem;
+  }
+
+  .parceiros p {
+    font-size: 1.8rem;
+  }
+
+  footer {
+    display: none;
+  }
+}
