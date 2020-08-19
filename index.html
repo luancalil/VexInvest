@@ -34,7 +34,7 @@
   </head>
   <body>
     <header class="header" id="clique">
-      <a href="index.html" class="grid-4">
+      <a href="index.html">
         <img src="assets/Logo.svg" alt="logo VexInvest" id="logo" />
         <img
           src="/assets/imgs-mobile/v-logo.png"
@@ -43,41 +43,35 @@
         />
       </a>
     </header>
+
     <img src="/assets/bg-mapa.jpg" id="bg-mapa" />
+    <img src="/assets/imgs-mobile/bg.png" id="bg-mapa-sm">
 
     <section class="introducao">
       <div class="esquerdo">
         <h1>Automatize e <span>alcance</span> os seus sonhos</h1>
         <p>
-          Você escolhe a estratégia e o robô a executa <br />
-          enquanto você planeja o que fazer com seu tempo <br />
-          livre. Para saber mais baixe o infográfico.
+          Você escolhe a estratégia e o robô a executa enquanto você planeja o que fazer com seu tempo livre. Para saber mais, baixe o infográfico.
         </p>
 
         <form
           method="POST"
           action="https://smtl.gama.academy/leads/7f2b2100-dcac-11ea-91f1-99fb0c9231dc"
         >
-          <div class="form-group">
             <input
               name="name"
               type="text"
               pattern="^\D{2,}\s[\D\s]{2,}$"
-              placeholder="Nome Completo"
-              class="form-control"
+              placeholder="Nome completo"
               id="home"
               required
             />
-          </div>
-          <div class="form-group">
             <input
               name="email"
               type="email"
               placeholder="Seu melhor e-mail"
-              class="form-control"
               required
             />
-          </div>
           <input
             name="redirectTo"
             type="hidden"

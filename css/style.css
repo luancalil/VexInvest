@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@400;500;700&family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@400;500;700&family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;600;700&display=swap");
 
 body {
+  width: 100vw;
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
   background: #f3f7f9;
@@ -22,6 +23,10 @@ li img {
   width: 100%;
 }
 
+#bg-mapa-sm {
+  display: none;
+}
+
 .subtitulo {
   font-family: Poppins;
   font-size: 48px;
@@ -41,6 +46,7 @@ li img {
 .introducao {
   display: flex;
   width: 100%;
+  margin-left: 8.45rem;
 }
 
 #intro-img {
@@ -48,11 +54,10 @@ li img {
 }
 
 .introducao h1 {
-  width: 35vw;
+  width: 40vw;
   font-size: 62px;
   color: #20509e;
-  font-weight: bold;
-  padding-left: 140px;
+  font-weight: 600;
   padding-top: 130px;
 }
 
@@ -61,29 +66,35 @@ li img {
 }
 
 .introducao p {
+  width: 369px;
   font-size: 19px;
+  text-align: justify;
+  line-height: 26px;
   margin: 35px 0;
-  padding-left: 140px;
-}
-.introducao .direito {
-  margin-left: 200px;
+  color: #75849A;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  width: 370px;
-  margin-left: 140px;
+  width: 369px;
+}
+
+::placeholder {
+  color: #C4C4C4;
 }
 
 form input {
+  font-family: 'Montserrat';
   height: 48px;
-  border: 1px solid #00cfc1;
-  border-radius: 8px;
+  background: #FFFFFF;
+  border: 1px solid #00CFC1;
   box-sizing: border-box;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
   padding-left: 10px;
   margin-bottom: 15px;
-  color: #c4c4c4;
+  color: #75849A;
 }
 
 form .button {
@@ -102,7 +113,6 @@ form .button {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 100px auto 50px auto;
 }
 
 .cada-passo {
@@ -142,8 +152,8 @@ form .button {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-left: 20rem;
-  width: 70vw;
+  margin-left: 10rem;
+  width: 90vw;
   height: 403px;
   background: #00cfc1;
   border-radius: 16px;
@@ -307,111 +317,128 @@ form .button {
 
 @media (max-width: 700px) {
   body {
+    width: 100vw;
     background: #f3f7f9;
   }
-
+  
   .header {
-    padding: 25px;
+    width: 100vw;
+    padding: 1.5rem 1.5rem;
   }
 
-  .introducao img {
+  .introducao {
+    margin: 0;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  #intro-img {
     display: none;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    width: 85vw;
   }
-
+  
+  #logo {
+    width: 35vw;
+  }
+  
   #logo-sm {
     display: none;
   }
-
-  form {
-    max-width: 90vw;
-    margin-left: 1rem;
+  
+  #bg-mapa-sm {
+    display: block;
+    position: absolute;
+    right: 0;
+    z-index: -1;
   }
-
+  
   .introducao h1 {
     width: 70vw;
-    font-size: 2.8rem;
+    font-size: 2.6rem;
     padding-left: 1.4rem;
   }
-
+  
   .introducao p {
-    font-size: 1.4rem;
-    padding: 1.4rem;
-    margin-right: 2rem;
+    width: 100vw;
+    font-size: 1.2rem;
+    padding-left: 1.4rem;
+    padding-right: 2.4rem;
   }
-
+  
   form {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  
+  form input {
     font-family: "Montserrat";
     font-size: 1.2rem;
     color: #6c6e70;
   }
-
+  
   form .button {
-    margin: 1rem 0;
+    width: 90vw;
+    margin: 1rem auto;
   }
-
+  
   #bg-mapa {
     display: none;
   }
-
+  
   #passos {
+    width: 270px;
+    margin: 2rem auto;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
   }
-
+  
+  .cada-passo {
+    width: 50vw;
+    margin-top: 1.6rem;
+  }
+  
   .cada-passo img {
-    width: 75vw;
-    margin-right: 2rem;
+    width: 200px;
   }
-
+  
   #robofdp {
     width: 50vw;
   }
-
+  
   .passo-texto {
     text-align: center;
     font-size: 1.8rem;
   }
-
+  
   .human {
     display: none;
   }
-
+  
   .bro {
-    margin-top: 0rem;
-    margin-left: 1rem;
-    display: block;
+    flex-direction: column;
+    margin: 0 auto;
   }
-
+  
   .bro img {
-    width: 70vw;
-    align-items: center;
-    position: relative;
-    padding-left: 40px;
+    width: 90vw;
   }
-
-  .bro .direito {
-    word-break: keep-all;
-  }
-
+  
   .bro h1,
   .bro span,
   .bro span + span {
     font-size: 1.7rem;
     line-height: normal;
-    text-align: start;
-    width: 400px;
+    text-align: center;
+    width: 80vw;
+    margin: 2rem auto 0;
   }
-
+  
   .bro .direito .btn-2 {
-    margin-top: 2rem;
-    font-size: 1.1rem;
-    margin-left: 25px;
-  }
-
-  .parceiros p {
-    font-size: 1.8rem;
+    width: 90vw;
+    height: auto;
+    font-size: 1.3rem;
+    margin: 20px auto;
   }
 
   footer {
