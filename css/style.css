@@ -65,6 +65,9 @@ li img {
   margin: 35px 0;
   padding-left: 140px;
 }
+.introducao .direito {
+  margin-left: 200px;
+}
 
 form {
   display: flex;
@@ -99,6 +102,7 @@ form .button {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 100px auto 50px auto;
 }
 
 .cada-passo {
@@ -138,8 +142,8 @@ form .button {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-left: 10rem;
-  width: 90vw;
+  margin-left: 20rem;
+  width: 70vw;
   height: 403px;
   background: #00cfc1;
   border-radius: 16px;
