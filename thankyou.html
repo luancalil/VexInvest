@@ -1,50 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-  <link rel="stylesheet" href="/css/thankyou.css">
+    <link rel="stylesheet" href="/css/thankyou.css" />
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175636380-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-175636380-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'UA-175636380-1');
-</script>
+      gtag("config", "UA-175636380-1");
+    </script>
 
-<!-- Hotjar Tracking Code for vexinvest.netlify.app -->
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:1949172,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+    <!-- Hotjar Tracking Code for vexinvest.netlify.app -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 1949172, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
 
-<script>
-  function download() {
-      document.getElementById('dl').click();
-  }
-  </script>
+    <script>
+      function download() {
+        document.getElementById("dl").click();
+      }
+    </script>
 
-  <title>VexInvest - Baixe seu infográfico gratuito!</title>
-</head>
-<body onload="download()">
-  <header>
-    <img src="/assets/Logo.svg" alt="Logo da Vex Invest" class="logo" id="logo-lg">
-    <img src="/assets/imgs-mobile/v-logo.png" alt="Logo da Vex Invest" class="logo" id="logo-sm">
-  </header>
+    <title>VexInvest - Baixe seu infográfico gratuito!</title>
+  </head>
+  <body onload="download()">
+    <header>
+      <img
+        src="/assets/Logo.svg"
+        alt="Logo da Vex Invest"
+        class="logo"
+        id="logo-lg"
+      />
+      <img
+        src="/assets/imgs-mobile/v-logo.png"
+        alt="Logo da Vex Invest"
+        class="logo"
+        id="logo-sm"
+      />
+    </header>
 
-  <div id="thanks">
-    <p>PARABÉNS!<br /><span class="p2">Você está <strong>um passo</strong> mais próximo de <strong>automatizar</strong> seus investimentos e ganhar mais <strong>qualidade de vida.</strong></span><span class="small">Caso o download não inicie automaticamente, <a id="dl" href="/assets/pdf/vexinvest.pdf" download>clique aqui.</a></span></p>
-    <img src="/assets/thanks.svg" alt="Ilustração de gráficos" id="thanks-img">
-  </div>
-</body>
+    <div id="thanks">
+      <p>
+        PARABÉNS!<br /><span class="p2"
+          >Você está <strong>um passo</strong> mais próximo de
+          <strong>automatizar</strong> seus investimentos e ganhar mais
+          <strong>qualidade de vida.</strong></span
+        ><span class="small"
+          >Caso o download não inicie automaticamente,
+          <a id="dl" href="/assets/pdf/vexinvest.pdf" download
+            >clique aqui.</a
+          ></span
+        >
+      </p>
+      <img
+        src="/assets/thanks.svg"
+        alt="Ilustração de gráficos"
+        id="thanks-img"
+      />
+    </div>
+  </body>
 </html>
