@@ -71,7 +71,7 @@ li img {
   text-align: justify;
   line-height: 26px;
   margin: 35px 0;
-  color: #75849a;
+  color: #616d80;
 }
 
 form {
@@ -81,13 +81,13 @@ form {
 }
 
 ::placeholder {
-  color: #c4c4c4;
+  color: #8c8c8c;
 }
 
 form input {
   font-family: "Montserrat";
   height: 48px;
-  background: #ffffff;
+  background: #f0f5f5;
   border: 1px solid #00cfc1;
   box-sizing: border-box;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
