@@ -462,12 +462,13 @@ form .button {
   }
 
   #parceiros {
+    align-items: center;
   }
 
   #parceiros p {
     font-size: 1.8rem;
     line-height: normal;
-    text-align: left;
+    text-align: center;
   }
 
   #marcas-parceiras {
@@ -475,7 +476,8 @@ form .button {
   }
 
   #marcas-parceiras img {
-    width: 50%;
+    width: 70%;
+    margin-left: 40px;
   }
 
   .footer {
