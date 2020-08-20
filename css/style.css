@@ -275,7 +275,7 @@ form .button {
 .carousel {
   width: 80vw;
   margin: 0 auto;
-  background: #00CFC1;
+  background: #00cfc1;
   border-radius: 16px;
   padding: 3rem;
   justify-content: center;
@@ -299,7 +299,7 @@ form .button {
 }
 
 #chamada p {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 35px;
@@ -309,7 +309,7 @@ form .button {
 
 #chamada .btn-2 {
   width: 100%;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   color: #fff;
   text-transform: uppercase;
 }
@@ -317,7 +317,8 @@ form .button {
 #fotocaption {
   width: 55%;
   height: 470px;
-  background: #FFFFFF;
+  max-width: 1200px;
+  background: #ffffff;
   border-radius: 16px;
   box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.2);
   padding: 2rem;
@@ -330,12 +331,12 @@ form .button {
 }
 
 #fotocaption p {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 21px;
-  color: #8296A4;
+  color: #8296a4;
   margin-top: 1.6rem;
   text-align: justify;
 }
@@ -381,7 +382,7 @@ form .button {
 
 .footer p {
   color: #e9eef2;
-  font-size: .8rem;
+  font-size: 0.8rem;
   line-height: 18px;
   font-family: "Lato", sans-serif;
   border-left: 1px solid #e9eef2;
@@ -568,7 +569,7 @@ form .button {
     flex-direction: column-reverse;
     align-items: center;
   }
-  
+
   #chamada {
     width: 80%;
     margin: 0;
@@ -597,7 +598,7 @@ form .button {
   .carousel-control-next {
     display: none;
   }
-  
+
   .footer {
     height: 110px;
   }
