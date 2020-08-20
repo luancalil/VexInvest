@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@400;500;700&family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;600;700&display=swap");
 
 body {
-  width: 100vw;
+  width: 100%;
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
   background: #f3f7f9;
@@ -11,6 +11,7 @@ body {
 li img {
   display: block;
   max-width: 100%;
+  height: 50px;
 }
 
 #logo-sm {
@@ -50,7 +51,8 @@ li img {
 }
 
 #intro-img {
-  margin: 150px auto auto 200px;
+  margin-top: 150px;
+  margin-left: 200px;
 }
 
 .introducao h1 {
@@ -71,7 +73,7 @@ li img {
   text-align: justify;
   line-height: 26px;
   margin: 35px 0;
-  color: #616d80;
+  color: #75849a;
 }
 
 form {
@@ -81,7 +83,7 @@ form {
 }
 
 ::placeholder {
-  color: #8c8c8c;
+  color: #c4c4c4;
 }
 
 form input {
@@ -104,16 +106,17 @@ form .button {
   font-size: 27.5052px;
   line-height: 40px;
   font-weight: bold;
-  color: #20259e;
+  color: #20509e;
 }
 
 /*Passos*/
 
 #passos {
-  margin: 100px auto 80px auto;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 100px auto 50px auto;
 }
 
 .cada-passo {
@@ -151,10 +154,11 @@ form .button {
   align-items: center;
   justify-content: space-around;
   margin: 1rem auto;
-  width: 82vw;
+  width: 80vw;
   height: 500px;
   background: #00cfc1;
   border-radius: 16px;
+  margin: 50px auto 100px auto;
 }
 
 .human .esquerdo {
@@ -165,7 +169,7 @@ form .button {
   font-family: Roboto;
   font-size: 64px;
   line-height: 70px;
-  color: #263238;
+  color: #32383c;
 }
 
 .human h1 span {
@@ -173,7 +177,7 @@ form .button {
 }
 
 .human p {
-  color: #263238;
+  color: #32383c;
   font-family: Montserrat;
   font-size: 20px;
   line-height: 30px;
@@ -198,7 +202,7 @@ form .button {
   width: fit-content;
   display: flex;
   align-items: center;
-  margin: 5rem auto;
+  margin: 3rem auto;
 }
 
 .bro h1 {
@@ -241,7 +245,7 @@ form .button {
 
 #parceiros {
   width: 90vw;
-  margin: 2rem auto;
+  margin: 3rem auto;
 }
 
 #parceiros p {
@@ -276,12 +280,11 @@ form .button {
 }
 
 .footer {
-  height: 100%;
-  width: 100%;
+  height: 150px;
+  width: 130vw;
   background: #32383c;
-  display: block;
   overflow: hidden;
-  align-items: center;
+  padding: 0px 0;
 }
 
 .footer ul li {
@@ -303,13 +306,14 @@ form .button {
 .footer p {
   color: #e9eef2;
   font-family: Lato;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 12px;
+  line-height: 18px;
   font-family: "Lato", sans-serif;
   border-left: 1px solid #e9eef2;
   height: 100px;
   width: 400px;
-  padding: 30px 0 0 30px;
+  padding-left: 30px;
+  padding-top: 33px;
 }
 
 @media (max-width: 700px) {
@@ -459,42 +463,24 @@ form .button {
   }
 
   #parceiros {
-    display: block;
+    display: none;
   }
 
   #parceiros p {
     font-size: 1.8rem;
     line-height: normal;
-    text-align: center;
+    text-align: left;
   }
 
   #marcas-parceiras {
     flex-direction: column;
-    align-items: center;
-    margin-left: 70px;
   }
 
   #marcas-parceiras img {
-    width: 70%;
+    width: 50%;
   }
 
-  .footer {
-    width: 100%;
-    height: 100%;
-    display: block;
-    overflow: hidden;
-  }
-
-  .footer ul li a img {
-    align-items: center;
-    margin-left: -150px;
-    margin-top: 20px;
-  }
-
-  .footer ul li:first-child {
-    border: none;
-  }
-  .footer ul li p {
+  footer {
     display: none;
   }
 }
