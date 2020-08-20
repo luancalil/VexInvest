@@ -151,8 +151,8 @@ form .button {
   align-items: center;
   justify-content: space-around;
   margin: 1rem auto;
-  width: 80vw;
-  height: 480px;
+  width: 82vw;
+  height: 500px;
   background: #00cfc1;
   border-radius: 16px;
 }
@@ -276,7 +276,7 @@ form .button {
 }
 
 .footer {
-  height: 8vw;
+  height: 10vw;
   width: 100%;
   background: #32383c;
   display: block;
