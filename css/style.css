@@ -481,7 +481,10 @@ form .button {
   }
 
   .footer ul li a {
-    margin-left: -50px;
+    margin-left: -200px;
+  }
+  .footer ul li:first-child {
+    border-right: none;
   }
 
   .footer ul li p {
