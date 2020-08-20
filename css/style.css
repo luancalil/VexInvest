@@ -104,7 +104,7 @@ form .button {
   font-size: 27.5052px;
   line-height: 40px;
   font-weight: bold;
-  color: #ffffff;
+  color: #20259e;
 }
 
 /*Passos*/
@@ -173,7 +173,7 @@ form .button {
 }
 
 .human p {
-  color: #ffffff;
+  color: #263238;
   font-family: Montserrat;
   font-size: 15px;
   line-height: 24px;
@@ -302,14 +302,13 @@ form .button {
 .footer p {
   color: #e9eef2;
   font-family: Lato;
-  font-size: 11px;
-  line-height: 18px;
+  font-size: 14px;
+  line-height: 21px;
   font-family: "Lato", sans-serif;
   border-left: 1px solid #e9eef2;
   height: 100px;
   width: 400px;
-  padding-left: 30px;
-  padding-top: 33px;
+  padding: 30px 0 0 30px;
 }
 
 @media (max-width: 700px) {
