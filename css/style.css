@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@400;500;700&family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;600;700&display=swap");
 
 body {
-  width: 100%;
+  width: 100vw;
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
   background: #f3f7f9;
@@ -11,7 +11,6 @@ body {
 li img {
   display: block;
   max-width: 100%;
-  height: 50px;
 }
 
 #logo-sm {
@@ -52,11 +51,10 @@ li img {
 
 #intro-img {
   margin-top: 150px;
-  margin-left: 200px;
 }
 
 .introducao h1 {
-  width: 30vw;
+  width: 40vw;
   font-size: 62px;
   color: #20509e;
   font-weight: 600;
@@ -106,7 +104,7 @@ form .button {
   font-size: 27.5052px;
   line-height: 40px;
   font-weight: bold;
-  color: #20509e;
+  color: #ffffff;
 }
 
 /*Passos*/
@@ -116,7 +114,6 @@ form .button {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 100px auto 50px auto;
 }
 
 .cada-passo {
@@ -155,10 +152,9 @@ form .button {
   justify-content: space-around;
   margin: 1rem auto;
   width: 80vw;
-  height: 500px;
+  height: 403px;
   background: #00cfc1;
   border-radius: 16px;
-  margin: 50px auto 100px auto;
 }
 
 .human .esquerdo {
@@ -169,7 +165,7 @@ form .button {
   font-family: Roboto;
   font-size: 64px;
   line-height: 70px;
-  color: #32383c;
+  color: #ffffff;
 }
 
 .human h1 span {
@@ -177,10 +173,10 @@ form .button {
 }
 
 .human p {
-  color: #32383c;
+  color: #ffffff;
   font-family: Montserrat;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 .btn-2 {
@@ -202,7 +198,7 @@ form .button {
   width: fit-content;
   display: flex;
   align-items: center;
-  margin: 3rem auto;
+  margin: 2rem auto;
 }
 
 .bro h1 {
@@ -245,7 +241,7 @@ form .button {
 
 #parceiros {
   width: 90vw;
-  margin: 3rem auto;
+  margin: 2rem auto;
 }
 
 #parceiros p {
@@ -306,7 +302,7 @@ form .button {
 .footer p {
   color: #e9eef2;
   font-family: Lato;
-  font-size: 12px;
+  font-size: 11px;
   line-height: 18px;
   font-family: "Lato", sans-serif;
   border-left: 1px solid #e9eef2;
@@ -481,6 +477,10 @@ form .button {
   }
 
   footer {
+    display: block;
+  }
+
+  .footer ul li p {
     display: none;
   }
 }
