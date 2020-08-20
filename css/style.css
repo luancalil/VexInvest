@@ -152,7 +152,7 @@ form .button {
   justify-content: space-around;
   margin: 1rem auto;
   width: 80vw;
-  height: 403px;
+  height: 453px;
   background: #00cfc1;
   border-radius: 16px;
 }
@@ -165,7 +165,7 @@ form .button {
   font-family: Roboto;
   font-size: 64px;
   line-height: 70px;
-  color: #ffffff;
+  color: #263238;
 }
 
 .human h1 span {
@@ -175,8 +175,8 @@ form .button {
 .human p {
   color: #263238;
   font-family: Montserrat;
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .btn-2 {
