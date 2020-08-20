@@ -481,6 +481,7 @@ form .button {
   .footer {
     width: 100%;
     display: inline-block;
+    overflow: hidden;
   }
 
   .footer ul li a img {
