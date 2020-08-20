@@ -11,6 +11,7 @@ body {
 li img {
   display: block;
   max-width: 100%;
+  height: 50px;
 }
 
 #logo-sm {
@@ -51,10 +52,11 @@ li img {
 
 #intro-img {
   margin-top: 150px;
+  margin-left: 200px;
 }
 
 .introducao h1 {
-  width: 40vw;
+  width: 30vw;
   font-size: 62px;
   color: #20509e;
   font-weight: 600;
@@ -67,7 +69,7 @@ li img {
 
 .introducao p {
   width: 369px;
-  font-size: 19px;
+  font-size: 20px;
   text-align: justify;
   line-height: 26px;
   margin: 35px 0;
@@ -104,13 +106,13 @@ form .button {
   font-size: 27.5052px;
   line-height: 40px;
   font-weight: bold;
-  color: #ffffff;
+  color: #20509e;
 }
 
 /*Passos*/
 
 #passos {
-  margin: 0 auto;
+  margin: 100px auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -152,7 +154,7 @@ form .button {
   justify-content: space-around;
   margin: 1rem auto;
   width: 80vw;
-  height: 403px;
+  height: 500px;
   background: #00cfc1;
   border-radius: 16px;
 }
@@ -165,7 +167,7 @@ form .button {
   font-family: Roboto;
   font-size: 64px;
   line-height: 70px;
-  color: #ffffff;
+  color: #32383c;
 }
 
 .human h1 span {
@@ -173,10 +175,11 @@ form .button {
 }
 
 .human p {
-  color: #ffffff;
+  color: #32383c;
   font-family: Montserrat;
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 10px;
 }
 
 .btn-2 {
@@ -198,7 +201,7 @@ form .button {
   width: fit-content;
   display: flex;
   align-items: center;
-  margin: 2rem auto;
+  margin: 100px auto;
 }
 
 .bro h1 {
@@ -482,6 +485,7 @@ form .button {
 
   .footer ul li a img {
     margin-left: -40px;
+    margin-top: 20px;
   }
   .footer ul li:first-child {
     border-right: none;
