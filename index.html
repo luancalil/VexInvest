@@ -201,7 +201,7 @@
           href="https://www.clear.com.br/"
           target="_blank"
           rel="noopener"
-          title="Vá para apgina da clear"
+          title="Vá para a página da clear"
         >
           <img src="/assets/clear.svg" alt="Logo Clear Corretora" />
         </a>
@@ -209,7 +209,7 @@
           href="https://www.toroinvestimentos.com.br/"
           target="_blank"
           rel="noopener"
-          title="Vá para apgina da toror"
+          title="Vá para a página da toror"
         >
           <img src="/assets/toro.svg" alt="Logo Toro" />
         </a>
@@ -217,7 +217,7 @@
           href="https://www.xpi.com.br/"
           target="_blank"
           rel="noopener"
-          title="Vá para apgina da xp"
+          title="Vá para a página da xp"
         >
           <img src="/assets/xpinvestimentos.svg" alt="Logo XP Investimentos" />
         </a>
@@ -225,7 +225,7 @@
           href="https://www.modalmais.com.br/"
           target="_blank"
           rel="noopener"
-          title="Vá para apgina da modals"
+          title="Vá para a página da modals"
         >
           <img src="/assets/modals.svg" alt="Logo Modalmais" />
         </a>
@@ -233,7 +233,7 @@
           href="https://www.terrainvestimentos.com.br/"
           target="_blank"
           rel="noopener"
-          title="Vá para apgina da terra investimentos"
+          title="Vá para a página da terra investimentos"
         >
           <img
             src="/assets/terra-investimentos.svg"
@@ -243,30 +243,73 @@
       </div>
     </section>
 
+    <section id="slider">
+      <div id="passador" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#passador" data-slide-to="0" class="active"></li>
+    <li data-target="#passador" data-slide-to="1"></li>
+    <li data-target="#passador" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="innerslide d-flex">
+        <div id="chamada">
+          <p>Robôs que ajudam na sua estratégia</p>
+          <button class="btn-2" onClick="document.getElementById('logo').scrollIntoView();">baixar agora</button>
+        </div>
+        <div id="fotocaption">
+          <img class="d-block" src="assets/slider/foto1.jpg" alt="Primeiro slide">
+          <p>Um dos maiores desafios de investidores e traders é <span class="azul-escuro">controlar o emocional</span> para seguir sua estratégia, saber quando entrar e sair de uma operação, respeitar seu stop. Quanto mais emoção você sente durante um trade, maior a probabilidade de você fazer besteira. <br><span class="azul-escuro-destacado">Confie e siga sua estratégia.</span></p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="innerslide d-flex">
+        <div id="chamada">
+          <p>O novo normal na <strong>B3</strong></p>
+          <button class="btn-2" onClick="document.getElementById('logo').scrollIntoView();">baixar agora</button>
+        </div>
+        <div id="fotocaption">
+          <img class="d-block" src="assets/slider/foto2.jpg" alt="Segundo slide">
+          <p>De março a julho deste ano, <span class="azul-escuro">mais de 900 mil CPFs</span> foram cadastrados na Bolsa. Além deles, a novidade é a <span class="azul-escuro">chegada dos robôs traders</span>, programados para executar sua estratégia. Você monitora as ações do bot e o deixa trabalhando enquanto <span class="azul-escuro-destacado">você tem mais tempo para usar como quiser</span>.</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="innerslide d-flex">
+        <div id="chamada">
+          <p>Amplie seus investimentos</p>
+          <button class="btn-2" onClick="document.getElementById('logo').scrollIntoView();">baixar agora</button>
+        </div>
+        <div id="fotocaption">
+          <img class="d-block" src="assets/slider/foto3.jpg" alt="Terceiro slide">
+          <p>Faça o download do nosso infográfico, conheça todos os benefícios e <span class="azul-escuro-destacado">comece a investir agora mesmo!</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#passador" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#passador" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
+</div>
+    </section>
+
     <footer class="footer">
-      <ul>
-        <li>
-          <a
-            href="https://dossie-reconvexo.vercel.app/"
-            target="_blank"
-            rel="noopener"
-            ><img src="/assets/reconvexosimbolo 1.svg" alt=" reconvexo logo"
-          /></a>
-        </li>
-        <li>
-          <a href="index.html"
-            ><img src="/assets/vexinvest.svg" alt=" vexinvest logo reduzida"
-          /></a>
-        </li>
-        <li>
-          <p>
-            A Vexinvest é uma empresa de tecnologia <br />
-            especializada em investimentos automatizadas <br />
-            na bolsa de valores.<br />
-            Conheça nossos produtos e revolucione sua carteira.
-          </p>
-        </li>
-      </ul>
+      <div id="footer-content">
+        <img src="/assets/vexinvest.svg" alt="vexinvest logo reduzida"/>
+        <p>
+          A Vexinvest é uma empresa de tecnologia especializada em investimentos automatizadas na bolsa de valores. Conheça nossos produtos e revolucione sua carteira.
+        </p>
+      </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@400;500;700&family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;600;700&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   width: 100vw;
   font-family: "Roboto", sans-serif;
@@ -29,7 +33,7 @@ li img {
 }
 
 .subtitulo {
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 48px;
   line-height: 72px;
 }
@@ -137,7 +141,7 @@ form .button {
 .passo-texto {
   text-align: center;
   width: 70%;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 35px;
   color: #20509e;
 }
@@ -164,7 +168,7 @@ form .button {
 }
 
 .human h1 {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 64px;
   line-height: 70px;
   color: #32383c;
@@ -176,14 +180,14 @@ form .button {
 
 .human p {
   color: #32383c;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 20px;
   line-height: 30px;
   padding-top: 10px;
 }
 
 .btn-2 {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-weight: bold;
   font-size: 24px;
   line-height: 35px;
@@ -205,7 +209,7 @@ form .button {
 }
 
 .bro h1 {
-  font-family: Poppins;
+  font-family: "Poppins";
   font-style: normal;
   font-weight: normal;
   font-size: 42.6392px;
@@ -216,7 +220,7 @@ form .button {
 }
 
 .bro span {
-  font-family: Poppins;
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 81px;
@@ -225,7 +229,7 @@ form .button {
 }
 
 .bro span + span {
-  font-family: Poppins;
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 81px;
@@ -266,6 +270,87 @@ form .button {
   justify-content: center;
 }
 
+/*Slider*/
+
+.carousel {
+  width: 80vw;
+  margin: 0 auto;
+  background: #00CFC1;
+  border-radius: 16px;
+  padding: 3rem;
+  justify-content: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.innerslide {
+  align-items: center;
+  justify-content: space-between;
+}
+
+#chamada {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+#chamada p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 60px;
+  color: #32383c;
+}
+
+#chamada .btn-2 {
+  width: 100%;
+  font-family: 'Roboto';
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#fotocaption {
+  width: 55%;
+  height: 470px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  margin: 10px auto;
+}
+
+.carousel-item img {
+  border-radius: 0;
+  width: 100%;
+}
+
+#fotocaption p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #8296A4;
+  margin-top: 1.6rem;
+  text-align: justify;
+}
+
+#fotocaption .azul-escuro {
+  color: #20509e;
+  font-weight: 600;
+}
+
+.azul-escuro-destacado {
+  font-size: 1.2rem;
+  color: #20509e;
+  font-weight: 600;
+}
+
 /*Footer*/
 
 .footer::before {
@@ -280,39 +365,31 @@ form .button {
 
 .footer {
   height: 150px;
-  width: 130vw;
+  width: 100vw;
+  margin-top: 2rem;
   background: #32383c;
   overflow: hidden;
   padding: 0px 0;
 }
 
-.footer ul li {
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  padding: 20px 15px;
-  align-items: center;
-  position: relative;
-  top: -20px;
-  left: 200px;
-  margin-top: 20px;
-}
-
-.footer ul li:first-child {
-  border-right: 1px solid #e9eef2;
+#footer-content {
+  width: fit-content;
+  display: flex;
+  margin: 0 auto;
+  padding: 1.2rem 0;
 }
 
 .footer p {
   color: #e9eef2;
-  font-family: Lato;
-  font-size: 11px;
+  font-size: .8rem;
   line-height: 18px;
   font-family: "Lato", sans-serif;
   border-left: 1px solid #e9eef2;
   height: 100px;
   width: 400px;
   padding-left: 30px;
-  padding-top: 33px;
+  margin-left: 30px;
+  padding-top: 30px;
 }
 
 @media (max-width: 700px) {
@@ -480,21 +557,57 @@ form .button {
     margin-left: 40px;
   }
 
+  .carousel {
+    width: 100vw;
+    margin: 0;
+    border-radius: 0;
+    padding: 1rem 0 3rem;
+  }
+
+  .innerslide {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  
+  #chamada {
+    width: 80%;
+    margin: 0;
+  }
+
+  #chamada p {
+    font-size: 1.5rem;
+    line-height: normal;
+    margin-top: 1.6rem;
+  }
+
+  #fotocaption {
+    width: 80%;
+    height: fit-content;
+  }
+
+  #fotocaption p {
+    font-size: 1.1rem;
+  }
+
+  .azul-escuro-destacado {
+    font-size: 1.3rem;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+  
   .footer {
-    display: block;
-    width: 100%;
-    overflow: hidden;
+    height: 110px;
   }
 
-  .footer ul li a img {
-    margin-left: -145px;
-    margin-top: 20px;
-  }
-  .footer ul li:first-child {
-    border-right: none;
+  .footer img {
+    width: 10vw;
+    margin: 0 auto;
   }
 
-  .footer ul li p {
+  .footer p {
     display: none;
   }
 }
