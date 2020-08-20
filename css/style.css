@@ -480,8 +480,8 @@ form .button {
     display: block;
   }
 
-  .footer ul li a {
-    margin-left: -200px;
+  .footer ul li a img {
+    margin-left: -40px;
   }
   .footer ul li:first-child {
     border-right: none;
