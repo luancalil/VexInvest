@@ -480,6 +480,10 @@ form .button {
     display: block;
   }
 
+  .footer ul li a {
+    margin-left: -50px;
+  }
+
   .footer ul li p {
     display: none;
   }
