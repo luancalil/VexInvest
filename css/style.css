@@ -50,11 +50,11 @@ li img {
 }
 
 #intro-img {
-  margin-top: 150px;
+  margin: 150px auto auto 200px;
 }
 
 .introducao h1 {
-  width: 40vw;
+  width: 30vw;
   font-size: 62px;
   color: #20509e;
   font-weight: 600;
@@ -71,7 +71,7 @@ li img {
   text-align: justify;
   line-height: 26px;
   margin: 35px 0;
-  color: #75849A;
+  color: #75849a;
 }
 
 form {
@@ -81,20 +81,20 @@ form {
 }
 
 ::placeholder {
-  color: #C4C4C4;
+  color: #c4c4c4;
 }
 
 form input {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   height: 48px;
-  background: #FFFFFF;
-  border: 1px solid #00CFC1;
+  background: #ffffff;
+  border: 1px solid #00cfc1;
   box-sizing: border-box;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 8px;
   padding-left: 10px;
   margin-bottom: 15px;
-  color: #75849A;
+  color: #75849a;
 }
 
 form .button {
@@ -110,7 +110,7 @@ form .button {
 /*Passos*/
 
 #passos {
-  margin: 0 auto;
+  margin: 100px auto 80px auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -198,7 +198,7 @@ form .button {
   width: fit-content;
   display: flex;
   align-items: center;
-  margin: 2rem auto;
+  margin: 5rem auto;
 }
 
 .bro h1 {
@@ -245,7 +245,7 @@ form .button {
 }
 
 #parceiros p {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 2.6rem;
   text-align: center;
   line-height: 84px;
@@ -317,7 +317,7 @@ form .button {
     width: 100vw;
     background: #f3f7f9;
   }
-  
+
   .header {
     width: 100vw;
     padding: 1.5rem 1.5rem;
@@ -328,87 +328,87 @@ form .button {
     display: flex;
     flex-direction: column-reverse;
   }
-  
+
   #intro-img {
     display: none;
     margin-top: 3rem;
     margin-left: 2rem;
     width: 85vw;
   }
-  
+
   #logo {
     width: 35vw;
   }
-  
+
   #logo-sm {
     display: none;
   }
-  
+
   #bg-mapa-sm {
     display: block;
     position: absolute;
     right: 0;
     z-index: -1;
   }
-  
+
   .introducao h1 {
     width: 70vw;
     font-size: 2.6rem;
     padding-left: 1.4rem;
   }
-  
+
   .introducao p {
     width: 100vw;
     font-size: 1.2rem;
     padding-left: 1.4rem;
     padding-right: 2.4rem;
   }
-  
+
   form {
     width: 90vw;
     margin: 0 auto;
   }
-  
+
   form input {
     font-family: "Montserrat";
     font-size: 1.2rem;
     color: #6c6e70;
   }
-  
+
   form .button {
     width: 90vw;
     margin: 1rem auto;
   }
-  
+
   #bg-mapa {
     display: none;
   }
-  
+
   #passos {
     width: 270px;
     margin: 2rem auto;
     flex-direction: column;
   }
-  
+
   .cada-passo {
     width: 50vw;
     margin-top: 1.6rem;
   }
-  
+
   .cada-passo img {
     width: 200px;
   }
-  
+
   #robofdp {
     width: 50vw;
   }
-  
+
   .passo-texto {
     width: 80vw;
     text-align: center;
     font-size: 1.8rem;
   }
-  
+
   .human {
     flex-direction: column;
     height: fit-content;
@@ -431,16 +431,16 @@ form .button {
     width: 200px;
     font-size: 1rem;
   }
-  
+
   .bro {
     flex-direction: column;
     margin: 2rem auto;
   }
-  
+
   .bro img {
     width: 90vw;
   }
-  
+
   .bro h1,
   .bro span,
   .bro span + span {
@@ -450,7 +450,7 @@ form .button {
     width: 80vw;
     margin: 2rem auto 0;
   }
-  
+
   .bro .direito .btn-2 {
     width: 90vw;
     height: auto;
@@ -459,24 +459,40 @@ form .button {
   }
 
   #parceiros {
-    display: none;
+    display: block;
   }
 
   #parceiros p {
     font-size: 1.8rem;
     line-height: normal;
-    text-align: left;
+    text-align: center;
   }
 
   #marcas-parceiras {
     flex-direction: column;
+    align-items: center;
+    margin-left: 70px;
   }
 
   #marcas-parceiras img {
-    width: 50%;
+    width: 70%;
   }
 
-  footer {
+  .footer {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .footer ul li a img {
+    align-items: center;
+    margin-left: -150px;
+    margin-top: 20px;
+  }
+
+  .footer ul li:first-child {
+    border: none;
+  }
+  .footer ul li p {
     display: none;
   }
 }
