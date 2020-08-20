@@ -479,8 +479,10 @@ form .button {
     width: 50%;
   }
 
-  footer {
+  .footer {
     display: block;
+    width: 100%;
+    overflow: hidden;
   }
 
   .footer ul li a img {
